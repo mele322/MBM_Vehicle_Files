@@ -6,10 +6,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -21,7 +21,7 @@
 			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -38,10 +38,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -53,7 +53,7 @@
 			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -70,10 +70,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.60" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.60" />
@@ -85,7 +85,7 @@
 			<item name="HeadlightH7" chance="0.40" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -102,10 +102,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -117,7 +117,7 @@
 			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -134,10 +134,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -152,7 +152,7 @@
 			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -170,10 +170,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -188,7 +188,7 @@
 			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -206,10 +206,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -222,9 +222,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -242,10 +239,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -258,9 +255,6 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="HeadlightH7" chance="0.60" />
-		</attachments>
-		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -278,10 +272,10 @@
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -297,6 +291,135 @@
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Green">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Pink">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Black">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Grey">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -309,15 +432,15 @@
 		</cargo>
 	</type>
 	
-	<type name="MBM_HarleyDavidsonFatBoy_Gold">
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Orange">
 		<attachments chance="1.00">
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -332,7 +455,7 @@
 			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="HeadlightH7" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
@@ -345,15 +468,15 @@
 		</cargo>
 	</type>
 	
-	<type name="MBM_HarleyDavidsonFatBoy_Police">
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_White">
 		<attachments chance="1.00">
 			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Back" chance="1.00" />
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="CarRadiator" chance="0.80" />
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarBattery" chance="0.80" />
@@ -368,7 +491,70 @@
 			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
-		<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Red">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	
+	<type name="MBM_HarleyDavidsonFatBoy_Rusty_Yellow">
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Front" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_HarleyDavidsonFatBoy_Wheel_Rear" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_Harley_Plate_FatBoy" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="MBM_HarleyFatBoy_SadleBags" chance="0.80" />
