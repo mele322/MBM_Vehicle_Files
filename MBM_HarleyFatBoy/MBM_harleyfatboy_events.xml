@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <events>
     <event name="VehicleMBM_HarleyFatBoy">
-        <nominal>3</nominal>
+        <nominal>5</nominal>
         <min>2</min>
-        <max>5</max>
-        <lifetime>300</lifetime>
+        <max>7</max>
+        <lifetime>3000</lifetime>
         <restock>0</restock>
         <saferadius>1000</saferadius>
         <distanceradius>500</distanceradius>
