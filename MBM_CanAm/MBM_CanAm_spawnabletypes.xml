@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	<!-- All custom Bitterroot items are located at the bottom of this file. -->
+<spawnabletypes>
+	<type name="MBM_CanAm">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_CanAm_Green">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Green" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver_Green" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_CanAm_Pink">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Pink" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Pink" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Pink" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Pink" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver_Pink" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver_Pink" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_CanAm_Grey">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Grey" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver_Grey" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver_Grey" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_CanAm_Blue">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Blue" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver_Blue" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver_Blue" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	
+	<type name="MBM_CanAm_Orange">
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_Wheel_Orange" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_driver_Orange" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_CanAm_doors_codriver_Orange" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+
+</spawnabletypes>
