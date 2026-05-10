@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	<!-- All custom MBM Chevy Impala Loot items are located at the bottom of this file. -->
+<spawnabletypes>
+	<type name="MBM_ChevyImpala_Blue">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance=".80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Blue" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Blue" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Blue" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Blue" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_hood_Blue" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_trunk_Blue" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+		<type name="MBM_ChevyImpala_Orange">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance=".80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Orange" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Orange" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Orange" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Orange" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_hood_Orange" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_trunk_Orange" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+		<type name="MBM_ChevyImpala_Baby">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance=".80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Baby" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Baby" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Baby" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Baby" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_hood_Baby" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_trunk_Baby" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_Black">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Black" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Black" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Black" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Black" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_hood_Black" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_trunk_Black" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_Red">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+	<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Red" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Red" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Red" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Red" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_hood_Red" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_trunk_Red" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_Green">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Hood_Green" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Trunk_Green" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_Maroon">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.70" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Maroon" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Maroon" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Maroon" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Maroon" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Hood_Maroon" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Trunk_Maroon" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_Spite_RaceCar">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Hood_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Trunk_Spite_RaceCar" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_ChevyImpala_MBM_RaceCar">
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Wheel_Chrome" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_driver_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_codriver_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo1_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_doors_cargo2_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Hood_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_ChevyImpala_Trunk_MBM_RaceCar" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+</spawnabletypes>
