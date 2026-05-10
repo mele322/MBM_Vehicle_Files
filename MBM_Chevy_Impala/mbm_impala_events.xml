@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleMBM_ChevyImpala_Spawn">
+        <nominal>3</nominal>
+        <min>1</min>
+        <max>5</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Black" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Blue" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Red" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Maroon" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Green" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Baby" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_ChevyImpala_Spite_RaceCar" />
+        </children>
+    </event>
+</events>
