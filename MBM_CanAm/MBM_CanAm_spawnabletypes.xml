@@ -56,7 +56,7 @@
 			<item name="MBM_CanAm_Wheel_Green" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
-			<item name="MBM_CanAm_Wheel" chance="1.00" />
+			<item name="MBM_CanAm_Wheel_Green" chance="1.00" />
 		</attachments>
 		<attachments chance="1.00">
 			<item name="CarRadiator" chance="0.80" />
