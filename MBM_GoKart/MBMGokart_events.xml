@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<events>
+    <event name="VehicleMBM_GoKart_Spawn">
+        <nominal>6</nominal>
+        <min>2</min>
+        <max>8</max>
+        <lifetime>300</lifetime>
+        <restock>0</restock>
+        <saferadius>1000</saferadius>
+        <distanceradius>500</distanceradius>
+        <cleanupradius>200</cleanupradius>
+        <flags deletable="0" init_random="0" remove_damaged="1" />
+        <position>fixed</position>
+        <limit>mixed</limit>
+        <active>1</active>
+        <children>
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Black" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Blue" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Red" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Orange" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Grey" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Hearts" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Splatter" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_BlueSplatter" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Camo" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_ScapMetal" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_PinkHaze" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_GreenHaze" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_RedHaze" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_Graffiti" />
+            <child lootmax="0" lootmin="0" max="1" min="0" type="MBM_GoKart_MBM" />
+        </children>
+    </event>
+
+</events>
