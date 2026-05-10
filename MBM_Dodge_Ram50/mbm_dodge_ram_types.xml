@@ -1,1 +1,606 @@
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- 
+* NOMINAL (MAX) – Count the server tries to reach, depending on FLAGS (see below). Item count may not always be at NOMINAL because there may not be locations to place them. Items will queue if no locations are available.
+* LIFETIME – seconds until despawn (from last interaction)
+* RESTOCK – seconds until next item is placed into the spawn queue.
+* MIN – count reached before any respawn is started.  When MIN is reached, new items are spawned (see RESTOCK).
+* QUANTMIN – for containers, minimum % full when spawned (loose ammo, canteens, pills, etc)
+* QUANTMAX – for containers, maximum % full when spawned (loose ammo, canteens, pills, etc)
+* COST – priority for the CLE (higher is better) [not many items have this set so its not clear it is implemented]
+* FLAGS – used to calculate NOMINAL as well as indicate crafted and heli crash specific loot..
+  * IN_CARGO – count items stored in cargo (inside vehicles)
+  * IN_HOARDER – count items stored in tents, buried stashes, barrels as defined with the “hoarder” attribute in cfgspawnabletypes.xml
+  * IN_MAP – count items on the ground / in spawn
+  * IN_PLAYER – count items in a players hands or inventory
+  * CRAFTED – items created by players such as armbands or stone knives.
+--> 
+<types>
+ <type name="MBM_DodgeRam_Realtree">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_Dark">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_Camo">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_Blue">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_Red">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_Black">
+        <nominal>0</nominal>
+        <lifetime>17200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    </type>
+    <type name="MBM_DodgeRam_wheel">
+        <nominal>4</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Camo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_Camo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Camo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+         <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Camo">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Dark">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_Dark">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Dark">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Dark">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_RealTree">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_RealTree">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+     	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_RealTree">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_RealTree">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Red">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_Red">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+   		<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Red">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    	 <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Red">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+    	 <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Purple">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+     	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+        </type>
+    <type name="MBM_DodgeRam_doors_codriver_Purple">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+      	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Purple">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Purple">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Black">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>0</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_White">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_White">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_White">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_White">
+        <nominal>0</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+       	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_driver_Blue">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_codriver_Blue">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_hood_Blue">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+        <category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+    </type>
+    <type name="MBM_DodgeRam_doors_Trunk_Blue">
+        <nominal>2</nominal>
+        <lifetime>7200</lifetime>
+        <restock>1800</restock>
+        <min>0</min>
+        <quantmin>-1</quantmin>
+        <quantmax>-1</quantmax>
+        <cost>100</cost>
+        <flags count_in_cargo="0" count_in_hoarder="0" count_in_map="1" count_in_player="0" crafted="0" deloot="0" />
+     	<category name="tools"/>
+        <tag name="floor"/>
+        <usage name="Industial"/>
+		<value name="Tier2" />
+		<value name="Tier3" />
+		<value name="Tier4" />
+        </type>
+ </types>
