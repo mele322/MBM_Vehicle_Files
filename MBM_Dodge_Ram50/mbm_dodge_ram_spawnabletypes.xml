@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	<!-- All custom Bitterroot items are located at the bottom of this file. -->
+<spawnabletypes>
+	<type name="MBM_DodgeRam">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Dark">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Dark" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Dark" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Dark" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Dark" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Red">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.40" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Red" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Red" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Red" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Red" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Black">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Black" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Black" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Black" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Black" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Blue">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Blue" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Blue" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Blue" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Blue" chance="0.80" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Camo">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Camo" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Camo" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Camo" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Camo" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+	<type name="MBM_DodgeRam_Realtree">
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Wheel" chance="1.00" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarRadiator" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="CarBattery" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="SparkPlug" chance="0.80" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="HeadlightH7" chance="0.60" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_1_Realtree" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Door_1_2_Realtree" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Hood_Realtree" chance="0.90" />
+		</attachments>
+		<attachments chance="1.00">
+			<item name="MBM_DodgeRam_Trunk_Realtree" chance="0.90" />
+		</attachments>
+		<cargo chance="1.00">
+  			<item name="CanisterGasoline" chance="1.00" />
+  		</cargo>
+  		<cargo chance="1.00">
+  			<item name="ExpansionCarKey" chance="1.00" />
+		</cargo>
+	</type>
+</spawnabletypes>
